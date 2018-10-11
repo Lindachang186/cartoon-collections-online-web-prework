@@ -21,5 +21,4 @@ def find_the_cheese(array)
   array.find do |word|
     array.include? (cheese_types)
   end
-  return find_the_cheese(array)
 end
